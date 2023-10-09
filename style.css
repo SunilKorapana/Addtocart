@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    user-select: none;
+    color: #432000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+
+}
+
+img{
+    width: 250px;
+    margin: 0 auto;
+    mix-blend-mode: multiply;
+}
+
+input{
+    background-color: #DCE1EB;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    color: #432000;
+    font-family: 'Rubik', sans-serif;
+}
+
+button{
+    background-color: #a53860;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover{
+    background-color: #432000;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #FFFDF8;
+    padding: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+ul li:hover{
+    background-color: #FFECC7;
+}
+
